@@ -5,6 +5,11 @@ public class Item {
     private String content;
     private StatusType status;
 
+    public Item(String content, StatusType status) {
+        this.content = content;
+        this.status = status;
+    }
+
     public String getContent() {
         return content;
     }
